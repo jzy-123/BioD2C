@@ -1,6 +1,6 @@
 # BiLENS
 The official codes for [**BiLENS : A Question Guided Framework for Bio-Medical Visual Question Answering**]
-
+![pipeline of BiLENS](bilens.jpg)
 ## Contents
 
 - [Install](#install)
@@ -30,6 +30,15 @@ pip install -r requirements.txt
 | Path-VQA | https://github.com/UCSD-AI4H/PathVQA |
 | BioVGQ | https://huggingface.co/datasets/jzyang/BioVGQ |
 
+The BioVGQ dataset and other downstream test datasets can be downloaded through the links provided in the table.
+
+To obtain the PMC-600K dataset used in the training stage 1, execute the following commands:
+```Shell
+wget https://hanoverprod.z21.web.core.windows.net/med_llava/llava_med_image_urls.jsonl
+mkdir pmc_articles
+mkdir images
+python script.py
+```
 
 ## Model Download
 
@@ -40,3 +49,7 @@ pip install -r requirements.txt
 Click [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) to download the weight parameters of the visual encoder and save them in the ```/models/pmcclip``` folder.
 
 ## Evaluation
+ Run ```test_Slake.py```, ```test_VQA_RAD.py```, and ```test_pathvqa.py``` to test BiLENS. Remember to modify the ```--ckp``` parameter in the files to point to the model weight path.
+
+ ## Train
+ You may also choose to retrain the model. The hyperparameters required for training are provided in ```train_stage_1.sh``` and ```train_stage_2.sh```. Run these two files separately to complete the first and second stages of training.
