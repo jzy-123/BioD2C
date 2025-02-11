@@ -28,7 +28,7 @@ pip install -r requirements.txt
 | VQA-RAD     | https://osf.io/89kps/                           |
 | SLAKE | https://www.med-vqa.com/slake/                  |
 | Path-VQA | https://github.com/UCSD-AI4H/PathVQA |
-| BioVGQ | 
+| BioVGQ | https://huggingface.co/datasets/jzyang/BioVGQ |
 
 
 ## Model Download
