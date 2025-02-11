@@ -1,6 +1,6 @@
 # BiLENS
 The official codes for [**BiLENS : A Question Guided Framework for Bio-Medical Visual Question Answering**]
-![pipeline of BiLENS](bilens.jpg)
+![pipeline of BiLENS](bilens.png)
 ## Contents
 
 - [Install](#install)
