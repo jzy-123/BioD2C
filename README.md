@@ -1,5 +1,5 @@
-# BiLENS
-The official codes for [**BiLENS : A Question Guided Framework for Bio-Medical Visual Question Answering**]
+# MedFuSE
+The official codes for [**MedFuSE: A Feature-Level Multimodal Semantic Alignment Framework for Bio-Medical VQA**]
 <p align="center">
  <img src="bilens.png" alt="pipeline of BiLENS" style="width: 60%;">
 </p>
@@ -15,8 +15,8 @@ The official codes for [**BiLENS : A Question Guided Framework for Bio-Medical V
 ## Install
 1. Clone this repository and navigate to BiLENS folder
 ```bash
-https://github.com/jzy-123/BiLENS.git
-cd BiLENS
+https://github.com/jzy-123/MedFuSE.git
+cd MedFuSE
 ```
 2. Install Package: Create conda environment
 ```Shell
@@ -47,7 +47,7 @@ python script.py
 
  Model Descriptions | 🤗 Huggingface Hub | 
 | --- | ---: |
-| BiLENS | [jzyang/BiLENS](https://huggingface.co/jzyang/BiLENS) |
+| MedFuSE | [[jzyang/MedFuSE]](https://huggingface.co/jzyang/MedFuSE) |
 
 Click [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) to download the weight parameters of the visual encoder and save them in the ```/models/pmcclip``` folder.
 
