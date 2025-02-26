@@ -1,7 +1,7 @@
 # BioD2C
 The official codes for [**BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA**]
 <p align="center">
- <img src="pipeline_1.png" alt="pipeline of BiLENS" style="width: 60%;">
+ <img src="pipeline1.png" alt="pipeline of BiLENS" style="width: 60%;">
 </p>
 
 # Contents
