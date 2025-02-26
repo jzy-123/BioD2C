@@ -1,5 +1,5 @@
-# MedFuSE
-The official codes for [**MedFuSE: A Feature-Level Multimodal Semantic Alignment Framework for Bio-Medical VQA**]
+# BioD2C
+The official codes for [**BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA**]
 <p align="center">
  <img src="bilens.png" alt="pipeline of BiLENS" style="width: 60%;">
 </p>
@@ -15,8 +15,8 @@ The official codes for [**MedFuSE: A Feature-Level Multimodal Semantic Alignment
 ## Install
 1. Clone this repository and navigate to BiLENS folder
 ```bash
-https://github.com/jzy-123/MedFuSE.git
-cd MedFuSE
+https://github.com/jzy-123/BioD2C.git
+cd BioD2C
 ```
 2. Install Package: Create conda environment
 ```Shell
@@ -47,7 +47,7 @@ python script.py
 
  Model Descriptions | 🤗 Huggingface Hub | 
 | --- | ---: |
-| MedFuSE | [[jzyang/MedFuSE]](https://huggingface.co/jzyang/MedFuSE) |
+| BioD2C | [[jzyang/BioD2C]](https://huggingface.co/jzyang/BioD2C) |
 
 Click [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) to download the weight parameters of the visual encoder and save them in the ```/models/pmcclip``` folder.
 
