@@ -60,10 +60,10 @@ Click [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) to download the weight
  ## Citation
  If you use this code, our pre-trained model weights, or the BioVGQ dataset, please cite our [paper](https://arxiv.org/abs/2503.02476).
  ```Shell
-@article{jiBioD2C,
-      title={BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA}, 
-      author={Zhengyang Ji and Shang Gao and Li Liu and Yifan Jia and Yutao Yue},
-      year={2025},
-      journal={arXiv preprint arXiv:2503.02476},
+@article{ji2025biod2c,
+  title={BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA},
+  author={Ji, Zhengyang and Gao, Shang and Liu, Li and Jia, Yifan and Yue, Yutao},
+  journal={arXiv preprint arXiv:2503.02476},
+  year={2025}
 }
 ```
