@@ -1,7 +1,7 @@
 # BioD2C
 The official codes for [**BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA**]
 <p align="center">
- <img src="pipeline1.png" alt="pipeline of BiLENS" style="width: 60%;">
+ <img src="pipeline1.png" alt="pipeline of BioD2C" style="width: 60%;">
 </p>
 
 # Contents
@@ -14,15 +14,15 @@ The official codes for [**BioD2C: A Dual-level Semantic Consistency Constraint F
 - [Citation](#citation)
 
 ## Install
-1. Clone this repository and navigate to BiLENS folder
+1. Clone this repository and navigate to BioD2C folder
 ```bash
 https://github.com/jzy-123/BioD2C.git
 cd BioD2C
 ```
 2. Install Package: Create conda environment
 ```shell
-conda create -n bilens python=3.10 -y
-conda activate bilens
+conda create -n BioD2C python=3.10 -y
+conda activate BioD2C
 conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
@@ -54,7 +54,7 @@ python script.py
 Click [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) to download the weight parameters of the visual encoder and save them in the `/models/pmcclip` folder.
 
 ## Evaluation
-Run `test_Slake.py`, `test_VQA_RAD.py`, and `test_pathvqa.py` to test BiLENS. Remember to modify the `--ckp` parameter in the files to point to the model weight path.
+Run `test_Slake.py`, `test_VQA_RAD.py`, and `test_pathvqa.py` to test BioD2C. Remember to modify the `--ckp` parameter in the files to point to the model weight path.
 
 ## Train
 You may also choose to retrain the model. The hyperparameters required for training are provided in `train_stage_1.sh` and `train_stage_2.sh`. Run these two files separately to complete the first and second stages of training.
