@@ -1,5 +1,7 @@
 # BioD2C
 The official codes for [**BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA**]
+
+🎉 Our paper has been accepted by **MICCAI 2025**
 <p align="center">
  <img src="pipeline1.png" alt="pipeline of BioD2C" style="width: 60%;">
 </p>
@@ -58,6 +60,9 @@ Run `test_Slake.py`, `test_VQA_RAD.py`, and `test_pathvqa.py` to test BioD2C. Re
 
 ## Train
 You may also choose to retrain the model. The hyperparameters required for training are provided in `train_stage_1.sh` and `train_stage_2.sh`. Run these two files separately to complete the first and second stages of training.
+
+## Acknowledgment
+The code is based on [PMC-CLIP](https://github.com/WeixiongLin/PMC-CLIP) and the [LLaMA](https://github.com/meta-llama/llama) series of models. We thank the authors for their open-sourced code and encourage users to cite their works when applicable.
 
 ## Citation
 If you use this code, our pre-trained model weights, or the BioVGQ dataset, please cite our [paper](https://arxiv.org/abs/2503.02476).
